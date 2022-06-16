@@ -15,3 +15,9 @@ int firstMissingPositive(vector<int>& nums) {
     }
     return n+1;
 }
+
+int main(){
+    vector<int> nums = {1,2,0};
+    cout << firstMissingPositive(nums) << endl;
+    return 0;
+}
